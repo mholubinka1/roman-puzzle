@@ -1,0 +1,242 @@
+{
+  "Card1": {
+    "Sides": [
+      {
+        "Symbol": "banner",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "dark",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "spear",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "dark",
+        "Type:": "top"
+      }
+    ]
+  },
+  "Card2": {
+    "Sides": [
+      {
+        "Symbol": "spear",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "dark",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "banner",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "spear",
+        "Type:": "top"
+      }
+    ]
+  },
+  "Card3": {
+    "Sides": [
+      {
+        "Symbol": "banner",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "dark",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "chariot",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "spear",
+        "Type:": "bottom"
+      }
+    ]
+  },
+  "Card4": {
+    "Sides": [
+      {
+        "Symbol": "dark",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "spear",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "chariot",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "light",
+        "Type:": "top"
+      }
+    ]
+  },
+  "Card5": {
+    "Sides": [
+      {
+        "Symbol": "sword",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "chariot",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "light",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "chariot",
+        "Type:": "top"
+      }
+    ]
+  },
+  "Card6": {
+    "Sides": [
+      {
+        "Symbol": "light",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "light",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "light",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "spear",
+        "Type:": "top"
+      }
+    ]
+  },
+  "Card7": {
+    "Sides": [
+      {
+        "Symbol": "light",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "spear",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "sword",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "chariot",
+        "Type:": "top"
+      }
+    ]
+  },
+  "Card8": {
+    "Sides": [
+      {
+        "Symbol": "sword",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "banner",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "banner",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "dark",
+        "Type:": "bottom"
+      }
+    ]
+  },
+  "Card9": {
+    "Sides": [
+      {
+        "Symbol": "chariot",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "banner",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "banner",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "spear",
+        "Type:": "top"
+      }
+    ]
+  },
+  "Card10": {
+    "Sides": [
+      {
+        "Symbol": "chariot",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "banner",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "chariot",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "spear",
+        "Type:": "top"
+      }
+    ]
+  },
+  "Card11": {
+    "Sides": [
+      {
+        "Symbol": "light",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "light",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "sword",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "sword",
+        "Type:": "bottom"
+      }
+    ]
+  },
+  "Card12": {
+    "Sides": [
+      {
+        "Symbol": "sword",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "spear",
+        "Type:": "bottom"
+      },
+      {
+        "Symbol": "light",
+        "Type:": "top"
+      },
+      {
+        "Symbol": "dark",
+        "Type:": "top"
+      }
+    ]
+  }
+}
