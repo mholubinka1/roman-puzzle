@@ -1,3 +1,6 @@
-## build set
+from arrange import MCMCArranger
+from setup import *
 
-## Markov Chain MC
+card_config_file = 'card_config.json'
+cards = load_cards(card_config_file)
+arranger = MCMCArranger(cards)

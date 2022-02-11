@@ -18,7 +18,10 @@ class Card:
         self.sides = self.rotate_symbols(self.sides, clockwise, rotation_angle)
         return
     
-    def rotate_symbols(sides, clockwise: bool, rotation_angle: int):
+    def rotate_symbols(sides, clockwise: bool = True, rotation_angle: int = 90):
+        allowed_angles = [0, 90, 180, 270]
+        if rotation_angle not in allowed_angles:
+            raise
         x = rotation_angle / 90
         if clockwise:
             return sides[-x:] + sides[:-x]
