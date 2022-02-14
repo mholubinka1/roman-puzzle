@@ -1,7 +1,7 @@
 from argparse import ArgumentError
 from typing import List
 
-from helpers import Sides
+from side import Sides, circular_addition
 from symbol_type import SymbolType
 
 class Symbol:
@@ -20,34 +20,34 @@ class Symbol:
         
 
 class Card:
-    def __init__(self, card_number: int, symbols, orientation = 0):
-        self.card_number = card_number
+    def __init__(self, card_number: int, symbols: dict, orientation: int = 0):
         if len(symbols) != 4:
             raise ArgumentError("A card must have 4 sides.")
+        remainder = orientation % 90
+        if remainder != 0:
+            raise ArgumentError("Card cannot be orientated at that angle: {}".format(orientation))
+        self.card_number = card_number
         self.sides = symbols
         self.orientation = orientation
 
+    def change_orientation(current_orientation: int, rotation_angle: int = 90, clockwise: bool = True) -> int:
+        new_orientation = (current_orientation + rotation_angle) if clockwise else (current_orientation - rotation_angle)
+        return new_orientation % 360
+        
     def rotate(self, clockwise: bool = True, rotation_angle: int = 90) -> None:
-        allowed_angles = [0, 90, 180, 270]
-        if rotation_angle not in allowed_angles:
-            raise ArgumentError(f"Card cannot be rotated to that angle: {}".format(rotation_angle))
-        right_angle_count = rotation_angle / 90
-        self.orientation = (self.orientation + rotation_angle) if clockwise else (self.orientation - rotation_angle)
-        self.sides = self.rotate_symbols(self.sides, clockwise, right_angle_count)
+        remainder = rotation_angle % 90
+        if remainder != 0:
+            raise ArgumentError("Card cannot be rotated to that angle: {}".format(rotation_angle))
+        x = rotation_angle / 90
+        x = x if clockwise else (360 - (x % 360))       
+        self.sides = [{Sides[circular_addition(key.value, x)]: value} for (key, value) in self.sides]
         return
     
-    def rotate_symbols(sides: List[int], clockwise: bool = True, right_angle_count: int = 1) -> List[int]:
-        x = right_angle_count
-        if clockwise:
-            return sides[-x:] + sides[:-x]
-        else:
-            return sides[x:] + sides[:x]
-        
-    def is_match(self, matching_symbols: List[Symbol]) -> bool:
+    def is_match(self, matching_symbols: dict) -> bool:
         if len(matching_symbols) != 4:
             raise ArgumentError("Matching list of symbols should be of length 4.")
         for side in Sides:
-            if not self.sides[side.value].is_match:
+            if not self.sides[side].is_match(matching_symbols[side]):
                 return False
         return True
         

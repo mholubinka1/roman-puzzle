@@ -22,5 +22,8 @@ class MCMCArranger:
         return
 
     def find_required(x, y) -> List[Symbol]:
-        ## do each direction in turn up, right, down, left
-        return
+        top = None
+        right = None
+        bottom = None
+        left = None        
+        return [top, right, bottom, left]

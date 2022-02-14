@@ -2,22 +2,22 @@
   "1":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"lightCoin",
         "half":"-1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"spearMan",
         "half":"-1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"swordsMan",
         "half":"1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"chariot",
         "half":"1"
       }
@@ -26,22 +26,22 @@
   "2":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"lightCoin",
         "half":"-1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"lightCoin",
         "half":"1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"spearMan",
         "half":"1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"lightCoin",
         "half":"-1"
       }
@@ -50,22 +50,22 @@
   "3":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"lightCoin",
         "half":"1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"chariot",
         "half":"1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"swordsMan",
         "half":"1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"chariot",
         "half":"-1"
       }
@@ -74,22 +74,22 @@
   "4":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"lightCoin",
         "half":"1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"darkCoin",
         "half":"-1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"spearMan",
         "half":"1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"chariot",
         "half":"-1"
       }
@@ -98,22 +98,22 @@
   "5":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"banner",
         "half":"-1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"darkCoin",
         "half":"1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"spearMan",
         "half":"-1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"darkCoin",
         "half":"1"
       }
@@ -122,22 +122,22 @@
   "6":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"spearMan",
         "half":"1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"spearMan",
         "half":"-1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"darkCoin",
         "half":"1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"banner",
         "half":"1"
       }
@@ -146,22 +146,22 @@
   "7":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"banner",
         "half":"-1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"darkCoin",
         "half":"-1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"chariot",
         "half":"-1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"spearMan",
         "half":"-1"
       }
@@ -170,22 +170,22 @@
   "8":{
     "sides":[
       {
-        "id":"0",
+        "name":"0",
         "symbol":"lightCoin",
         "half":"1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"darkCoin",
         "half":"1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"swordsMan",
         "half":"1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"spearMan",
         "half":"-1"
       }
@@ -194,22 +194,22 @@
   "9":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"lightCoin",
         "half":"-1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"lightCoin",
         "half":"-1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"swordsMan",
         "half":"-1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"swordsMan",
         "half":"-1"
       }
@@ -218,22 +218,22 @@
   "10":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"banner",
         "half":"-1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"spearMan",
         "half":"1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"chariot",
         "half":"1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"banner",
         "half":"-1"
       }
@@ -242,22 +242,22 @@
   "11":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"darkCoin",
         "half":"-1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"swordsMan",
         "half":"-1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"banner",
         "half":"1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"banner",
         "half":"1"
       }
@@ -266,22 +266,22 @@
   "12":{
     "sides":[
       {
-        "id":"0",
+        "id":"top",
         "symbol":"chariot",
         "half":"-1"
       },
       {
-        "id":"1",
+        "id":"right",
         "symbol":"spearMan",
         "half":"1"
       },
       {
-        "id":"2",
+        "id":"bottom",
         "symbol":"chariot",
         "half":"1"
       },
       {
-        "id":"3",
+        "id":"left",
         "symbol":"banner",
         "half":"1"
       }
