@@ -30,16 +30,18 @@ class Card:
         self.sides = symbols
         self.orientation = orientation
 
-    def change_orientation(current_orientation: int, rotation_angle: int = 90, clockwise: bool = True) -> int:
-        new_orientation = (current_orientation + rotation_angle) if clockwise else (current_orientation - rotation_angle)
+    def change_orientation(current_orientation: int, rotation_angle: int, clockwise: bool) -> int:
+        mod_angle = rotation_angle % 360
+        mod_angle = mod_angle if clockwise else (360 - mod_angle)
+        new_orientation = current_orientation + mod_angle
         return new_orientation % 360
         
     def rotate(self, clockwise: bool = True, rotation_angle: int = 90) -> None:
         remainder = rotation_angle % 90
         if remainder != 0:
             raise ArgumentError("Card cannot be rotated to that angle: {}".format(rotation_angle))
-        x = rotation_angle / 90
-        x = x if clockwise else (360 - (x % 360))       
+        self.orientation = self.change_orientation(self.orientation, rotation_angle, clockwise)
+        x = (rotation_angle if clockwise else (360 - (x % 360))) / 90    
         self.sides = [{Sides[circular_addition(key.value, x)]: value} for (key, value) in self.sides]
         return
     
