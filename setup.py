@@ -4,9 +4,13 @@ from card.card import *
 from card.side import to_side
 from card.symbol_type import to_symbol_type
 
+
 def create_card(card_number: int, card: dict):
-    sides = card['sides']
-    symbols = [{to_side(card['id']): Symbol(to_symbol_type(side['symbol']), int(side['half']))} for side in card['sides']]
+    sides = card["sides"]
+    symbols = [
+        {to_side(card["id"]): Symbol(to_symbol_type(side["symbol"]), int(side["half"]))}
+        for side in card["sides"]
+    ]
     return Card(card_number, symbols)
 
 

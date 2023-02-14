@@ -1,6 +1,8 @@
-from typing import List
+from typing import Dict, List
+
 from card.card import Card, Symbol
 from card.side import Sides
+
 
 class MCMCArranger:
     def __init__(self, cards: List[Card], cols: int = 4, rows: int = 3):
@@ -27,7 +29,7 @@ class MCMCArranger:
     
     def find_top_match(x, y) -> Symbol:
 
-    def find_required(x: int, y: int, i_arrangement) -> dict:
+    def find_required(x: int, y: int, i_arrangement) -> Dict:
         top = find_top_match(x, y)
         right = None
         bottom = None
