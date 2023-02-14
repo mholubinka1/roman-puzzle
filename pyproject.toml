@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "roman-puzzle"
+version = "0.1.0"
+description = ""
+authors = ["Matt Holubinka <meholubinka@gmail.com>"]
+readme = "README.md"
+packages = [{include = "roman_puzzle"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
